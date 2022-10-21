@@ -1,19 +1,13 @@
-<div align="center">
+--[[
 
-# VIP Teleporter
-
-[![Build Status](https://github.com/ManticoreGamesInc/CC-NFT-Searcher/workflows/CI/badge.svg)](https://github.com/ManticoreGamesInc/CC-VIP-Teleporter/actions/workflows/ci.yml?query=workflow%3ACI%29)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/ManticoreGamesInc/CC-VIP-Teleporter?style=plastic)
-
-![Preview](/Screenshots/vipteleporter.png)
-
-</div>
-
-## Finding the Component
-
-This component can be found under the **CoreAcademy** account on Community Content.
-
-## Overview
+ __      _______ _____    _______   _                       _
+ \ \    / /_   _|  __ \  |__   __| | |                     | |
+  \ \  / /  | | | |__) |    | | ___| | ___ _ __   ___  _ __| |_ ___ _ __
+   \ \/ /   | | |  ___/     | |/ _ \ |/ _ \ '_ \ / _ \| '__| __/ _ \ '__|
+    \  /   _| |_| |         | |  __/ |  __/ |_) | (_) | |  | ||  __/ |
+     \/   |_____|_|         |_|\___|_|\___| .__/ \___/|_|   \__\___|_|
+                                          | |
+                                          |_|
 
 The VIP Teleporter component allows creators to set up teleporters that checks if a player is VIP.
 
@@ -21,7 +15,15 @@ The component uses a data table to make connecting teleporters quick and simple.
 
 A player is considered VIP if they are on a specific team.
 
-## Setup
+====
+NOTE
+====
+
+If the Dependent folders are empty in Project Content under Imported Content for this component, save and reload the project to fix it.
+
+=====
+Setup
+=====
 
 To create your own teleporters, there is a VIP Teleporter template that can be used.
 
@@ -30,9 +32,13 @@ If the rotation is 0, 0, 0, then it will maintain the player's rotation.
 
 The teleporters are connected using a data table. See below for more information on how to connect teleporters.
 
-## How to use
+==========
+How to use
+==========
 
-### Custom Properties
+=================
+Custom Properties
+=================
 
 The template contains 4 custom properties on the root of the template.
 
@@ -52,7 +58,9 @@ The color of the text if the player is able to use the teleporter.
 
 The color of the text if the player is not allowed to use the teleporter.
 
-### Connecting Teleporters
+======================
+Connecting Teleporters
+======================
 
 Connecting teleporters is very easy.
 
@@ -71,3 +79,5 @@ In Project Content find the VIP Teleporters data table and open it. You will see
 Teleporters can be chained easily. For example, from A to B, B to C, and so on.
 
 Teleporters can have multiple connections but only the first valid one will be selected.
+
+--]]
