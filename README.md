@@ -21,6 +21,8 @@ The component uses a data table to make connecting teleporters quick and simple.
 
 A player is considered VIP if they are on a specific team.
 
+This component works in conjunction with the VIP Team Selection component. See more info here: https://learn.coregames.com/vip-team-selection/
+
 ## Setup
 
 To create your own teleporters, there is a VIP Teleporter template that can be used.
