@@ -5,7 +5,7 @@
 [![Build Status](https://github.com/ManticoreGamesInc/CC-VIP-Teleporter/workflows/CI/badge.svg)](https://github.com/ManticoreGamesInc/CC-VIP-Teleporter/actions/workflows/ci.yml?query=workflow%3ACI%29)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/ManticoreGamesInc/CC-VIP-Teleporter?style=plastic)
 
-![Preview](/Screenshots/vipteleporter.png)
+![Preview](/Screenshots/Main.png)
 
 </div>
 
